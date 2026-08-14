@@ -31,7 +31,7 @@ export const InputArea = ({ onAdd }: Props) => {
             return 
         }
 
-        const dateObj = new Date(dateField.replace(/-/g, '\/'))
+        const dateObj = new Date(dateField.replace(/-/g, '/'))
         
         let newItem: Item = {
             date: dateObj,
