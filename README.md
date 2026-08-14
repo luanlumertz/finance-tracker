@@ -1,46 +1,49 @@
-# Getting Started with Create React App
+# Finance Tracker
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Sistema financeiro para controlar receitas, despesas e balanço mensal de forma simples e visualmente organizada.
 
-## Available Scripts
+[🚀 Acessar projeto em produção](https://finance-tracker-lemon-seven.vercel.app/)
 
-In the project directory, you can run:
+## 📌 Visão geral
 
-### `npm start`
+Este projeto foi desenvolvido para ajudar na organização financeira do dia a dia, permitindo:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- acompanhar receitas e despesas por mês;
+- visualizar o balanço total do período;
+- registrar novos lançamentos com data, categoria, título e valor;
+- manter uma tabela centralizada com todos os itens cadastrados;
+- navegar facilmente entre meses para comparar movimentações.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+A interface foi pensada para ser direta, limpa e funcional, com foco na experiência de uso.
 
-### `npm test`
+## ✨ Funcionalidades
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Controle financeiro por mês;
+- Resumo com receitas, despesas e balanço;
+- Cadastro de lançamentos;
+- Categorias pré-definidas;
+- Tabela de movimentações com histórico;
+- Layout responsivo e moderno em React + Styled Components.
 
-### `npm run build`
+## 🧩 Tecnologias utilizadas
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- React
+- TypeScript
+- Styled Components
+- Create React App
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 📊 Como o sistema funciona
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+O app organiza os lançamentos por mês e calcula automaticamente o total de:
 
-### `npm run eject`
+- Receitas;
+- Despesas;
+- Balanço final.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Ao cadastrar um item, o sistema salva as informações e atualiza a tabela e os indicadores em tempo real.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 🌐 Deploy
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+O projeto está publicado na Vercel:
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+- https://finance-tracker-lemon-seven.vercel.app/
